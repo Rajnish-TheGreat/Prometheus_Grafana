@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
         - name: grafana
-          image: vimal13/grafana
+          image: rajnishthegreat/grafana:v1
           imagePullPolicy: IfNotPresent
       restartPolicy: Always 
